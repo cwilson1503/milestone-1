@@ -1,0 +1,19 @@
+body {
+    background: darkgray;
+    margin: 0;
+}
+
+.tiles{
+    margin: 50px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 16px;
+}
+
+.tile {
+    height: 100px;
+    background: black;
+    border: 5px solid gray;
+    
+}
